@@ -1,10 +1,12 @@
-function HeaderPage({Hdata}) {
+import keyConceptsImage from "../../assets/images/key-concepts.png";
+
+function HeaderPage() {
   return (
-      <header>
-        <img src={Hdata.srcImg} alt={Hdata.altInfo} />
-        <h1>{Hdata.h1Info}</h1>
-        <p>{Hdata.paragraptInfo}</p>
-      </header>
+    <header>
+      <img src={keyConceptsImage} alt="Medal badge with a star" />
+      <h1>Key React Concepts</h1>
+      <p>Selected key React concepts you should know about</p>
+    </header>
   );
 }
 
